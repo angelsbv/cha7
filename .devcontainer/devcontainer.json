@@ -5,14 +5,17 @@
 
 	"build": {
 		"dockerfile": "Dockerfile",
-		"args": { "NODE_VERSION": "18.13.0", "NESTCLI_VERSION": "9.1.8" }
+		"args": {
+			"NESTCLI_VERSION": "9.1.8",
+			"EXPOCLI_VERSION": "6.1.0" 
+		}
 	},
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},
 
 	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": ["dbaeumer.vscode-eslint", "Dart-Code.flutter"],
+	"extensions": ["dbaeumer.vscode-eslint", "byCedric.vscode-expo"],
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
